@@ -73,11 +73,8 @@ body {
 .hero-section {
 background-color: #214b3f;
     background-image: url('../img/history-hero.jpg');
-
-    /* заміни на свою картинку */
     background-size: cover;
     background-position: center;
-    /* color: #ffffff; */
     text-align: center;
     padding: 100px 20px;
     position: relative;
@@ -109,7 +106,6 @@ background-color: #214b3f;
     margin: 0 auto;
 }
 
-/* === Адаптивність === */
 @media (max-width: 768px) {
     .main-nav ul {
         flex-direction: column;
@@ -259,7 +255,6 @@ background-color: #214b3f;
     text-decoration: underline;
 }
 
-/* === Адаптивність === */
 
 /* Планшети */
 @media (max-width: 992px) {
@@ -285,7 +280,6 @@ background-color: #214b3f;
     }
 }
 
-/* Телефони */
 @media (max-width: 576px) {
 
     .about-content h2,
@@ -310,7 +304,7 @@ background-color: #214b3f;
     flex-direction: row-reverse;
 }
 
-/* Для планшетів і мобілок лишається вертикально */
+
 @media (max-width: 992px) {
     .story-item.reverse {
         flex-direction: column;
@@ -404,7 +398,6 @@ background-color: #214b3f;
     background-color: #174f32;
 }
 
-/* Адаптивність */
 @media (max-width: 576px) {
     .contact-section h2 {
         font-size: 26px;
@@ -417,7 +410,6 @@ background-color: #214b3f;
 /* === Footer === */
 .site-footer {
     background-color: #1e4032;
-    /* темно-зелений */
     color: #ffffff;
     padding: 60px 20px;
 }
@@ -436,7 +428,6 @@ background-color: #214b3f;
 
 .logo-footer span {
     color: #aad4c8;
-    /* акцент */
 }
 
 .footer-brand p,
@@ -457,13 +448,6 @@ background-color: #214b3f;
     margin-right: 12px;
 }
 
-.social-icons img {
-    width: 24px;
-    height: 24px;
-    filter: brightness(0) invert(1);
-    /* робить іконки білі */
-}
-
 .footer-subscribe form {
     display: flex;
     flex-wrap: wrap;
@@ -477,13 +461,11 @@ background-color: #214b3f;
     border: none;
     font-size: 16px;
     height: 40px;
-    /* Фіксована висота */
     flex: 1 1 200px;
 }
 
 .footer-subscribe button {
     height: 40px;
-    /* Та сама висота */
     padding: 0 16px;
     background-color: #aad4c8;
     color: #1e4032;
@@ -493,7 +475,6 @@ background-color: #214b3f;
     white-space: nowrap;
 }
 
-/* Схований label */
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -509,7 +490,6 @@ background-color: #214b3f;
     background-color: #94c9ba;
 }
 
-/* Адаптив */
 @media (max-width: 768px) {
     .footer-grid {
         flex-direction: column;
