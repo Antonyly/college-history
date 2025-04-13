@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сайт місцевої історії</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Local<span>History</span></h1>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#about">Про нас</a></li>
+          <li><a href="#stories">Історії</a></li>
+          <li><a href="#gallery">Фотогалерея</a></li>
+          <li><a href="#archive">Архів</a></li>
+          <li><a href="#contact">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <h2>Зберігаймо минуле разом</h2>
+        <p>Історії людей, архіви та спадщина нашого міста — усе в одному місці.</p>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container about-wrapper">
+        <div class="about-image">
+          <img src="img/about-history.jpg" alt="Стара мапа міста">
+        </div>
+        <div class="about-content">
+          <h2>Про наc</h2>
+          <p>Сайт створено для збереження та популяризації місцевої історії. Ми збираємо розповіді очевидців, оцифровуємо
+            старі документи та публікуємо освітні матеріали для всіх охочих.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="stories" class="stories-section">
+      <div class="container">
+        <h2>Історії очевидців</h2>
+    
+        <div class="story-item reverse">
+          <div class="story-image">
+            <img src="img/story1.webp" alt="Очевидець Марія Іванівна">
+          </div>
+          <div class="story-text">
+            <h3>Спогади Марії Іванівни</h3>
+            <p>Я народилася у 1935 році у цьому містечку. Пам’ятаю, як ми ховалися під час війни...</p>
+            <a href="#">Читати далі</a>
+          </div>
+        </div>
+    
+        <div class="story-item">
+          <div class="story-image">
+            <img src="img/story2.webp" alt="Очевидець зі спогадами">
+          </div>
+          <div class="story-text">
+            <h3>Дитинство в 60-х</h3>
+            <p>Наші ігри були прості, але щасливі. Весь двір був однією великою родиною...</p>
+            <a href="#">Читати далі</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="gallery" class="gallery-section">
+      <div class="container">
+        <h2>Фотогалерея</h2>
+        <div class="gallery-grid">
+          <img src="img/photo1.jpg" alt="Старе фото 1">
+          <img src="img/photo2.jpg" alt="Старе фото 2">
+          <img src="img/photo3.jpg" alt="Старе фото 3">
+        </div>
+      </div>
+    </section>
+
+    <section id="archive" class="archive-section">
+      <div class="container archive-wrapper">
+        <div class="archive-image">
+          <img src="img/archive.jpg" alt="Старий архівний документ">
+        </div>
+        <div class="archive-content">
+          <h2>Архівні документи</h2>
+          <ul>
+            <li><a href="#">План міста 1902 року (PDF)</a></li>
+            <li><a href="#">Протоколи засідань ради 1945 року</a></li>
+            <li><a href="#">Інтерв’ю з ветеранами</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2>Контакти</h2>
+        <form>
+          <label for="name">Ім’я:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Повідомлення:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+    
+          <button type="submit">Надіслати</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+  
+      <!-- Лого та контакти -->
+      <div class="footer-brand">
+        <h3 class="logo-footer">Local<span>History</span></h3>
+        <p>м. Львів, вул. Грушевського, 1</p>
+        <p><a href="mailto:info@localhistory.ua">info@localhistory.ua</a></p>
+        <p>+38 098 123 45 67</p>
+      </div>
+  
+      <!-- Соцмережі -->
+      <div class="footer-social">
+        <h4>Долучайтеся</h4>
+        <div class="social-icons">
+          <a href="#"><img src="img/icons/instagram.svg" alt="Instagram"></a>
+          <a href="#"><img src="img/icons/twitter.svg" alt="Twitter"></a>
+          <a href="#"><img src="img/icons/facebook.svg" alt="Facebook"></a>
+          <a href="#"><img src="img/icons/linkedin.svg" alt="LinkedIn"></a>
+        </div>
+      </div>
+  
+      <!-- Підписка -->
+      <div class="footer-subscribe">
+        <h4>Підпишіться на розсилку</h4>
+        <form>
+          <label for="subscribe-email" class="visually-hidden">Email</label>
+          <input class="email-input" type="email" id="subscribe-email" placeholder="Ваш Email" required>
+          <button type="submit">Підписатись</button>
+        </form>
+      </div>
+
+  
+    </div>
+  </footer>
+
+
+</body>
+</html>
